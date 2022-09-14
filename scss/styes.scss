@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url("./_variables.scss");
+@import "mixins.scss";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.cabeza{
+    @include flex;
+    background-color: $color-primario;
+    .cabezaTitulo:hover{
+        font-size: 3rem;
+    }
+}
+.navegacion{
+    background-color: $color-primario;
+}
+.fondo{
+    background-color: $color-primario;
+ }
+.carrucel{
+    display: flex;
+    justify-content:space-around;
+}
+
+@media screen and (max-width: 768px) {
+.cajas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5%;
+}
+}
+.cajas{
+    display: flex;
+    justify-content:space-evenly;
+    padding: 5%;
+}
+.cajaContenido{
+    background-color: $color-secundario;
+    .subtituloTexto{
+        color: $color-primario;
+    }
+    .parrafo{
+        color: $color-parrafos;
+    }
+}
+.mapa{
+    @include flex;
+}
+@media screen and (max-width: 768px) {
+    .fondo2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: $color-secundario;
+        padding: 4%;
+        .subtituloTexto{
+            color: $color-primario;
+            font-size: 1rem;
+        }
+        .parrafo{
+            color: $color-parrafos;
+            font-size: 0,5rem;
+        }
+    }
+}
+.contenedorTitulo{
+    @include flex;
+    .entrenamientosTitulos:hover{
+        font-size: 2.2rem;
+        color: $color-secundario;
+    }
+}
+.contenedorParrafo{
+    @include flex;
+}
+.pieDePagina{
+    background-color: $color-primario;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .Rsociales:hover{
+        font-size: 2rem;
+        color: $color-secundario;
+    }
+}
+.sub2{
+    background-color: $color-primario;
+    @include flex;
+}
+.fondo2{
+    background-color: $color-primario;
+    height: 100%;
+    padding-bottom:7%;
+}
+.tabla, .tabla2{
+    border: 1px solid $color-secundario;
+}
+@media screen and (max-width: 768px) {
+    .contenedorTabla{
+        overflow:scroll;
+    }
+}
+.fondo2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $color-secundario;
+    padding: 4%;
+    .subtituloTexto{
+        color: $color-primario;
+    }
+    .parrafo{
+        color: $color-parrafos;
+    }
+}
+.listaCuota{
+    list-style-type: none;
+    .fondo3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: $color-primario;
+        padding-bottom: 10%;
+    }
+}
+.contenedorCajas{
+    @include flex;
+}
+.fondo3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $color-primario;
+    padding-bottom: 10%;
+}
+.subtituloContacto{
+    @include flex;
+}
+.completar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.seleccionar{
+    @include flex;
+}
+.enviar{
+    @include flex;
+    padding: 10%;
+    .boton{
+        font-size: 1.5rem;
+        background-color: $color-secundario;
+        color: $color-parrafos;
+    }
+}
+.img1{
+    display: flex;
+    justify-content: space-evenly;
+    .img2{
+        padding: 5%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .img1{
+        display: flex;
+        flex-direction: column;
+        .img2{
+            padding: 2%;
+        }
+    }
+}

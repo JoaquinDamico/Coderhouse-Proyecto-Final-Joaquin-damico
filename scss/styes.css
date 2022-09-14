@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("./_variables.scss");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.cabeza {
+  display: flex;
+  justify-content: center;
+  background-color: #C4FCEF;
+}
+.cabeza .cabezaTitulo:hover {
+  font-size: 3rem;
+}
+
+.navegacion {
+  background-color: #C4FCEF;
+}
+
+.fondo {
+  background-color: #C4FCEF;
+}
+
+.carrucel {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 768px) {
+  .cajas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5%;
+  }
+}
+.cajas {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5%;
+}
+
+.cajaContenido {
+  background-color: rgb(0, 0, 0);
+}
+.cajaContenido .subtituloTexto {
+  color: #C4FCEF;
+}
+.cajaContenido .parrafo {
+  color: white;
+}
+
+.mapa {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  .fondo2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    padding: 4%;
+  }
+  .fondo2 .subtituloTexto {
+    color: #C4FCEF;
+    font-size: 1rem;
+  }
+  .fondo2 .parrafo {
+    color: white;
+    font-size: 0, 5rem;
+  }
+}
+.contenedorTitulo {
+  display: flex;
+  justify-content: center;
+}
+.contenedorTitulo .entrenamientosTitulos:hover {
+  font-size: 2.2rem;
+  color: rgb(0, 0, 0);
+}
+
+.contenedorParrafo {
+  display: flex;
+  justify-content: center;
+}
+
+.pieDePagina {
+  background-color: #C4FCEF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pieDePagina .Rsociales:hover {
+  font-size: 2rem;
+  color: #000000;
+}
+
+.sub2 {
+  background-color: #C4FCEF;
+  display: flex;
+  justify-content: center;
+}
+
+.fondo2 {
+  background-color: #C4FCEF;
+  height: 100%;
+  padding-bottom: 7%;
+}
+
+.tabla, .tabla2 {
+  border: 1px solid black;
+}
+
+@media screen and (max-width: 768px) {
+  .contenedorTabla {
+    overflow: scroll;
+  }
+}
+.fondo2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  padding: 4%;
+}
+.fondo2 .subtituloTexto {
+  color: #C4FCEF;
+}
+.fondo2 .parrafo {
+  color: white;
+}
+
+.listaCuota {
+  list-style-type: none;
+}
+.listaCuota .fondo3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #C4FCEF;
+  padding-bottom: 10%;
+}
+
+.contenedorCajas {
+  display: flex;
+  justify-content: center;
+}
+
+.fondo3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #C4FCEF;
+  padding-bottom: 10%;
+}
+
+.subtituloContacto {
+  display: flex;
+  justify-content: center;
+}
+
+.completar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.seleccionar {
+  display: flex;
+  justify-content: center;
+}
+
+.enviar {
+  display: flex;
+  justify-content: center;
+  padding: 10%;
+}
+.enviar .boton {
+  font-size: 1.5rem;
+  background-color: black;
+  color: #ffffff;
+}
+
+.img1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.img1 .img2 {
+  padding: 5%;
+}
+
+@media screen and (max-width: 768px) {
+  .img1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .img1 .img2 {
+    padding: 2%;
+  }
+}/*# sourceMappingURL=styes.css.map */
