@@ -10,17 +10,18 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 .cabeza{
-    @include flex;
-    background-color: $color-primario;
+    display: flex;
+    justify-content: center;
+    background-color:#C4FCEF;
     .cabezaTitulo:hover{
         font-size: 3rem;
     }
 }
 .navegacion{
-    background-color: $color-primario;
+    background-color: #C4FCEF;
 }
 .fondo{
-    background-color: $color-primario;
+    background-color: #C4FCEF;
  }
 .carrucel{
     display: flex;
@@ -41,65 +42,69 @@ body{
     padding: 5%;
 }
 .cajaContenido{
-    background-color: $color-secundario;
+    background-color: black;
     .subtituloTexto{
-        color: $color-primario;
+        color: #C4FCEF;
     }
     .parrafo{
-        color: $color-parrafos;
+        color: white;
     }
 }
 .mapa{
-    @include flex;
+    display: flex;
+    justify-content: center;
 }
 @media screen and (max-width: 768px) {
     .fondo2{
         display: flex;
         flex-direction: column;
         align-items: center;
-        background-color: $color-secundario;
+        background-color: black;
         padding: 4%;
         .subtituloTexto{
-            color: $color-primario;
+            color: #C4FCEF;
             font-size: 1rem;
         }
         .parrafo{
-            color: $color-parrafos;
+            color: white;
             font-size: 0,5rem;
         }
     }
 }
 .contenedorTitulo{
-    @include flex;
+    display: flex;
+    justify-content: center;
     .entrenamientosTitulos:hover{
         font-size: 2.2rem;
-        color: $color-secundario;
+        color: black;
     }
 }
 .contenedorParrafo{
-    @include flex;
+    display: flex;
+    justify-content: center;
 }
 .pieDePagina{
-    background-color: $color-primario;
+    background-color: #C4FCEF;
     display: flex;
     flex-direction: column;
     align-items: center;
     .Rsociales:hover{
         font-size: 2rem;
-        color: $color-secundario;
+        color: black;
     }
 }
 .sub2{
-    background-color: $color-primario;
-    @include flex;
+    background-color: #C4FCEF;
+    display: flex;
+    justify-content: center;
 }
 .fondo2{
-    background-color: $color-primario;
+    background-color: #C4FCEF;
     height: 100%;
     padding-bottom:7%;
 }
 .tabla, .tabla2{
-    border: 1px solid $color-secundario;
+    border: 1px solid black;
 }
 @media screen and (max-width: 768px) {
     .contenedorTabla{
@@ -110,13 +115,13 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: $color-secundario;
+    background-color: black;
     padding: 4%;
     .subtituloTexto{
-        color: $color-primario;
+        color: #C4FCEF;
     }
     .parrafo{
-        color: $color-parrafos;
+        color: white;
     }
 }
 .listaCuota{
@@ -125,22 +130,24 @@ body{
         display: flex;
         flex-direction: column;
         align-items: center;
-        background-color: $color-primario;
+        background-color: #C4FCEF;
         padding-bottom: 10%;
     }
 }
 .contenedorCajas{
-    @include flex;
+    display: flex;
+    justify-content: center;
 }
 .fondo3{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: $color-primario;
+    background-color: #C4FCEF;
     padding-bottom: 10%;
 }
 .subtituloContacto{
-    @include flex;
+    display: flex;
+    justify-content: center;
 }
 .completar{
     display: flex;
@@ -148,14 +155,16 @@ body{
     align-items: center;
 }
 .seleccionar{
-    @include flex;
+    display: flex;
+    justify-content: center;
 }
 .enviar{
-    @include flex;
+    display: flex;
+    justify-content: center;
     padding: 10%;
     .boton{
         font-size: 1.5rem;
-        background-color: $color-secundario;
+        background-color: black;
         color: $color-parrafos;
     }
 }
